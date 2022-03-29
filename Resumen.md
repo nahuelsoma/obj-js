@@ -31,7 +31,7 @@ Los objetos tienen métodos (funciones) y atributos (características).
 
 ## Clase 4: Qué es un objeto en JavaScript
 
-###Objeto literal
+### Objeto literal
 
 Los objetos literales se distinguen de los objetos de la POO porque no son instancias de un prototipo creado por el desarrollador.
 
@@ -43,7 +43,7 @@ const Natalia = {
 'Rank': 2000,
 };
 
-###Prototipo
+### Prototipo
 
 Un prototipo es una estructura de código a partir de la cual se crean objetos, ya que guarda los atributos y métodos que luego podrán ser heredados por sus instancias.
 
@@ -57,19 +57,19 @@ this.points = '750';
 
 const Juanita = new Student();
 
-###Objeto
+### Objeto
 
 Los objetos son instancias de su prototipo padre, los cuales están formados por propiedades (atributos) y métodos.
 
-###Propiedades
+### Propiedades
 
 Un objeto de JavaScript tiene propiedades asociadas a él. Una propiedad de un objeto se puede explicar como una variable adjunta al objeto. Las propiedades de un objeto básicamente son lo mismo que las variables comunes de JavaScript, excepto por el nexo con el objeto.
 
-###Métodos
+### Métodos
 
 Un método es una función asociada a un objeto, o, simplemente, un método es una propiedad de un objeto que es una función.
 
-###Atributo **proto**
+### Atributo **proto**
 
 Es el nombre que se le da al atributo donde se guardan los métodos que las estructuras de datos tienen por defecto en JavaScript.
 
@@ -79,7 +79,7 @@ El atributo **proto** también se hereda a los objetos, ya que éstos son a la v
 
 ## Clase 5: Objetos literales y prototipos en JavaScript
 
-###Objeto literal
+### Objeto literal
 
 Se denomina objeto literal al objeto cuyas propiedades están declaradas textualmente en el código.
 
@@ -89,7 +89,7 @@ const Natalia = {
 'Rank': 2000,
 };
 
-###Prototipo
+### Prototipo
 
 Los prototipos son un mecanismo mediante el cual los objetos en JavaScript heredan características entre sí.
 
@@ -143,7 +143,7 @@ Una función que obtiene un valor de una propiedad se llama "getter" y una que e
 
 Esta característica a sido implementada en ES2015, pudiendo modificar el funcionamiento normal de establecer u obtener el valor de una propiedad. Conociendoselas como "accessor properties".
 
-##Implementación
+### Implementación
 
 class Course {
 constructor({
@@ -175,11 +175,11 @@ Se recomienda que un módulo contenga la extension ".mjs", aunque simplemente pu
 
 Los módulos pueden cargarse entre sí y usar directivas especiales "export" e "import" para llamar a funciones objetos o tipos de dato primitivos de otro módulo.
 
-###export
+### export
 
 La declaración export se utiliza al crear módulos de JavaScript para exportar funciones, objetos o tipos de dato primitivos del módulo para que puedan ser utilizados por otros programas con la sentencia import.
 
-###import
+### import
 
 La sentencia import se usa para importar funciones que han sido exportadas desde un módulo externo.
 
@@ -193,7 +193,7 @@ Para crear estos prototipos hijos a partir de los prototipos madre, utilizamos l
 
 La palabra clave "extends" es usada en la declaración o expresión de clases, para crear una clase hija de otra.
 
-###Sintaxis
+### Sintaxis
 
 class ChildClass extends ParentClass { ... }
 
@@ -201,13 +201,13 @@ La palabra clave extends se puede usar para crear una subclase a partir de clase
 
 La propiedad .prototype de la nueva subclase debe ser un Object o null.
 
-###super
+### super
 
 La palabra clave "super" es usada para acceder y llamar funciones del padre de un objeto.
 
 Las expresiones super.prop y super[expr] son válidas en cualquier definición de método tanto para clases como para objetos literales.
 
-####Sintaxis
+#### Sintaxis
 
 Para llamar al método constructor del objeto padre.
 
